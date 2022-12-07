@@ -1,0 +1,11 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 7090983
+##  Job Name : MyPreprocessing
+##  Nodelist : node1135
+##      CPUs : 
+##  Mem/Node : 4096 MB
+## Directory : /gpfs/home/pnagala1/icd-localization/slurm
+##   Job Started : Wed Dec  7 11:10:03 EST 2022
+###############################################################################
+/var/spool/slurmd/job7090983/slurm_script: line 25: 164770 Killed                  python3 ../preprocessing/preprocessing.py
+slurmstepd: error: Detected 1 oom-kill event(s) in step 7090983.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

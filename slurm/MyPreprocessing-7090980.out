@@ -1,0 +1,13 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 7090980
+##  Job Name : MyPreprocessing
+##  Nodelist : node1135
+##      CPUs : 
+##  Mem/Node : 4096 MB
+## Directory : /gpfs/home/pnagala1/icd-localization/slurm
+##   Job Started : Wed Dec  7 11:09:20 EST 2022
+###############################################################################
+Traceback (most recent call last):
+  File "../preprocessing/preprocessing.py", line 1, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
