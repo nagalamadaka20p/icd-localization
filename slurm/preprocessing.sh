@@ -8,7 +8,7 @@
 
 # Default resources are 1 core with 2.8GB of memory.
 # Use more memory (4GB):
-#SBATCH --mem=20G
+#SBATCH --mem=20lsG
 
 # Specify a job name:
 #SBATCH -J MyPreprocessing
